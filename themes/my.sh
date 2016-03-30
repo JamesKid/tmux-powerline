@@ -53,7 +53,7 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		"check_my_server 6 255" \
 		"date_day 60 255" \
 		"date 60 255 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
-		"time 245 0 " \
+		"time 255 0 " \
 		#"time 245 0 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 		#"utc_time 235 136 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 	)
