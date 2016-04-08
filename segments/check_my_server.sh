@@ -6,7 +6,9 @@
 #
 ########################################################
 
-run_segment() {
-	mysta=`cat /tmp/status/check.txt`
-	echo $mysta
-}
+# check web server
+	run_segment() {
+		mysta=`cat /tmp/status/check.txt`
+		echo $mysta
+	}
+
