@@ -9,7 +9,7 @@
 	run_segment() {
 		cd /tmp/status/
 		rm -rf /tmp/status/file1.txt
-		wget http://www.frlgz.com/file/file1.txt 
+		wget http://www.vimkid/assets/file/who.txt 
 		mysta=`cat /tmp/status/file1.txt`
 		echo $mysta
 	}

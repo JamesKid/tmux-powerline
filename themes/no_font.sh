@@ -59,7 +59,8 @@ if [ -z $TMUX_POWERLINE_RIGHT_STATUS_SEGMENTS ]; then
 		#"weather 37 255" \
 		#"rainbarf 0 ${TMUX_POWERLINE_DEFAULT_FOREGROUND_COLOR}" \
 		#"xkb_layout 125 117" \
-		"check_my_server 6 255" \
+		"check_vimkid 6 255" \
+		"check_frlgz 125 117" \
 		"date_day 60 255" \
 		"date 60 255 ${TMUX_POWERLINE_SEPARATOR_LEFT_THIN}" \
 		"time 255 0 " \

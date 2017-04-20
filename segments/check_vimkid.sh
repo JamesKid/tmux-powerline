@@ -1,5 +1,5 @@
 ########################################################
-# Title: check_my_server
+# Title: check_my_server vimkid website 
 # Des  : this is shell about check my mysql server,
 #        nginx server and centos server statusk
 #
