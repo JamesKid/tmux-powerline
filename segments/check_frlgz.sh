@@ -7,11 +7,12 @@
 ########################################################
 
 # check web server
-	run_segment() {
-		cd /tmp/status/
-		rm -rf /tmp/status/check.*
-		wget http://www.frlgz.com/check.php
-		mysta=`cat /tmp/status/check.php`
-		echo $mysta
-	}
+run_segment() {
+    mkdir -p /tmp/status/
+    cd /tmp/status/
+    rm -rf /tmp/status/check.*
+    wget http://www.frlgz.com/check.php
+    mysta=`cat /tmp/status/check.php`
+    echo $mysta
+}
 
